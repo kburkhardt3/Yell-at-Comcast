@@ -12,5 +12,6 @@ To use this, a few steps must be taken for setup:
  - set up .muttrc similar to https://gist.github.com/ramn/1923071
  - put `SpeedTracker.sh` and `SpeedEmail.sh` in home directory
  - modify emails and messages appropriately
+ - `chmod +x SpeedTracker.sh` and `chmod +x SpeedEmail.sh`
  - `crontab -e` and add to last line `0 * * * * /home/pi/SpeedTracker.sh` for hourly check
  
